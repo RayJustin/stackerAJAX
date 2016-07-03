@@ -36,12 +36,45 @@
 }
 
 .result {
-	border: 1px solid black;
+	border: 3px solid #FA6421;
 	padding: 5px;
 	margin: 0 auto 1em auto;
+	width: 400px;
+	background-color: #464A4D;
+	color: #FA6421;
+	min-height: 100px;
+}
+
+.search-results {
+	text-align: center;
+	font-size: 20px;
 }
 
 .error {
 	background-color: #F78181;
 	padding: 1em;
 }
+
+.link  {
+	color: #207CE5
+}
+
+.link:hover {
+	color: #FA6421;
+}
+
+.profilePic {
+	border-radius: 20px;
+	border: solid #FA6421 2px;
+	width: 80px;
+	height: 80px;
+}
+
+.picHolder {
+	float: right;
+}
+
+
+
+
+

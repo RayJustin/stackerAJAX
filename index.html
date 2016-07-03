@@ -25,7 +25,7 @@
 			</form>
 			<h3>View the Top Answerers for a Tag</h3>
 			<form class="inspiration-getter">
-				<input type="text" placeholder="e.g., jQuery" name="answerers" size="30"  required>
+				<input type="text" placeholder="e.g., jQuery" name="tags" size="30"  required>
 				<input type="submit" value="Submit">
 			</form>
 		</div>
@@ -37,13 +37,20 @@
 	<div class="templates hidden">
 		<dl class="result question">
 			<dt>Question</dt>
-				<dd class="question-text"><a href="" target="_blank"></a></dd>
+				<dd class="question-text"><a class="link" href="" target="_blank"></a></dd>
 			<dt>Asked</dt>
 				<dd class="asked-date"></dd>
 			<dt>Viewed</dt>
 				<dd class="viewed"></dd>
 			<dt>Asker</dt>
 				<dd class="asker"></dd>
+		</dl>
+		<dl class="result answer">
+				<dd class="picHolder"><img class="profilePic" src="" alt="Profile Picture"></a></dd>
+			<dt>Username</dt>
+				<dd class="username"><a class='link' href="" target="_blank"></a></dd>
+			<dt>Score</dt>
+				<dd class="score"></dd>
 		</dl>
 		<div class="error">
 			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
